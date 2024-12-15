@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Random Quote Generator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main">
+            <h1>Random Quote Generator</h1>
+            <div class="quote-body">
+                <div class="quote" id="quote">Click below to get a quote!</div>
+                <div class="author" id="author"></div>
+                <div class="submit">
+                    <button id="new-quote">Generate New Quote</button>
+                </div>
+                <div class="category">
+                    <label>
+                        <input type="checkbox" value="motivational" id="motivational"> Motivational
+                    </label>
+                    <label>
+                        <input type="checkbox" value="freedom" id="freedom"> Freedom
+                    </label>
+                    <label>
+                        <input type="checkbox" value="wisdom" id="wisdom"> Wisdom
+                    </label>
+                    <label>
+                        <input type="checkbox" value="life" id="life"> Life
+                    </label>
+                </div>
+                <div class="add-quote-container">
+                    <h2>Contribute Your Quote</h2>
+                    <input type="text" id="new-content" placeholder="Enter your quote" />
+                    <input type="text" id="new-author" placeholder="Enter author's name" />
+                    <button id="add-quote">Add Quote</button>
+                </div>
+                
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
